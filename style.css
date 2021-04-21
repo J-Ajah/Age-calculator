@@ -1,0 +1,143 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333;
+}
+
+form {
+  border: 1px solid #4444;
+  width: 45rem;
+  padding: 2rem;
+  
+  margin: auto;
+  border-radius: 3px;
+  box-shadow: 0 2px 4px rgba(247, 244, 244, 0.973);
+  margin-top: 8rem;
+  border-radius: 10px;
+  background-color: rgb(243, 155, 23);
+  text-align: center;
+}
+
+input{
+  font-size: 1.5rem;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-bottom: 20px;
+}
+
+#dob {
+  margin-top: 5rem;
+}
+
+#number {
+  width: 50%;
+  margin-right: 1rem;
+  border-radius: 3px;
+  outline: 0;
+  border: 0;
+  padding: 1rem 1.5rem;
+  color: #333;
+  font-weight: 300;
+}
+
+#birthDate1,
+#birthDate2 {
+  width: 80%;
+  padding: 1rem 1.5rem;
+  margin-top: 1.2rem;
+  border-radius: 3px;
+  outline: 0;
+  border: 0;
+  color: #333;
+}
+
+#birthDate {
+  margin-bottom: 3rem;
+}
+
+#findYear {
+  width: 30%;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  padding: 1rem 1.8rem;
+  background-color: rgb(12, 34, 224);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#findYear:hover {
+  background-color:white;
+  transition: 0.5s ease-in;
+  color: black;
+}
+
+.output,
+#age-output {
+  width: 50%;
+  border-radius: 3px;
+  padding: 1rem 1.5rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #444;
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.output {
+  margin: 0 auto;
+}
+
+#label {
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: black;
+
+}
+
+#calc {
+  margin-top: 2rem;
+  width: 40%;
+  font-size: 1.8rem;
+  padding: 1.5rem 0;
+  border-radius: 5px;
+  outline: 0;
+  border: 0;
+  background-color: rgb(12, 34, 224);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+}
+
+#calc:hover{
+    background-color: white;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    color: black;
+}
+
+#age-output {
+  margin: 2rem auto;
+}
+
+#finder {
+  padding: 1rem 1.5rem;
+  text-align: center;
+  color: rgb(50, 36, 253);
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.5rem;
+  padding-top:20px;
+  height: 50px;
+  font-weight: 600;
+  text-shadow: 1px 0.5px 2px rgb(209, 209, 209);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
